@@ -46,4 +46,4 @@ sudo systemctl start sshd.service																					                          
 sudo systemctl enable tor.service																					                                          #
 sudo systemctl start tor.service																					                                          #
 #link-file----------------------------------------------------------------------------------------------------------+
-#link to git.io																										                                                  #
+#link https://git.io/JuBJY																										                                      #
