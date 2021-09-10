@@ -1,7 +1,7 @@
 #!/bin/bash
 #titul---------------+
 #
-#ver.001.002
+#ver.001.003
 #
 #--------------------+
 #
@@ -34,7 +34,7 @@ yay -S onioncircuits openoffice-bin spotify themix-full-git --noconfirm
 #-----  themix-full-git       #-----link  https://aur.archlinux.org/packages/themix-full-git/
 #-----  trilium-bin           #-----link  https://aur.archlinux.org/packages/trilium-bin/
 #pip----------------------------------------------------------------------------------------------------------------+
-pip install b0mb3r
+pip install b0mb3r archivebox
 #systenctl----------------------------------------------------------------------------------------------------------+
 sudo systemctl stop NetworkManager
 sudo systemctl disable NetworkManager
