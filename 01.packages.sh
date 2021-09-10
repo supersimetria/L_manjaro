@@ -1,7 +1,7 @@
 #!/bin/bash
 #titul---------------+
 #
-#ver.001.003
+#ver.001.004
 #
 #--------------------+
 #
@@ -10,13 +10,12 @@ sudo pacman -Sw $(cat ~/Desktop/tmp_Lunar/mod/01.1.pl-0) --noconfirm
 #install-packeges---------------------------------------------------------------------------------------------------+
 sudo pacman -S $(cat ~/Desktop/tmp_Lunar/mod/01.1.pl-0) --noconfirm
 #AUR-packeges-------------------------------------------------------------------------------------------------------+
-yay -S anydesk-bin archtorify-git aur/archivebox dirsyncpro drawio-desktop-bin dupeguru figma-linux --noconfirm
+yay -S anydesk-bin archtorify-git dirsyncpro drawio-desktop-bin dupeguru figma-linux --noconfirm
 yay -S flat-remix flat-remix-gtk fslint iwscanner joplin megasync-bin nerd-fonts-fira-code --noconfirm
 yay -S onioncircuits openoffice-bin spotify themix-full-git --noconfirm
 #link-AUR-packeges--------------------------------------------------------------------------------------------------+
 #-----  anydesk-bin           #-----link  https://aur.archlinux.org/packages/anydesk-bin/
 #-----  archtorify-git        #-----link  https://aur.archlinux.org/packages/archtorify-git/
-#-----  aur/archivebox        #-----link  https://aur.archlinux.org/packages/archivebox/
 #-----  dirsyncpro            #-----link  https://aur.archlinux.org/packages/dirsyncpro/
 #-----  drawio-desktop-bin    #-----link  https://aur.archlinux.org/packages/drawio-desktop-bin/
 #-----  dupeguru              #-----link  https://aur.archlinux.org/packages/dupeguru/
