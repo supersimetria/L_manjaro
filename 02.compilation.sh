@@ -1,7 +1,7 @@
 #!/bin/bash
 #titul---------------+
 #
-#ver.001.002
+#ver.001.003
 #
 #--------------------+
 #
@@ -34,5 +34,8 @@ python3 -m pip install -r requirements.txt
 cd /opt/dpkg/routerscaner
 wget http://msk1.stascorp.com/routerscan/prerelease.7z -O routerscaner.7z
 7z x *.7z; rm *.7z
+#powerline-fonts----------------------------------------------------------------------------------------------------+
+git clone https://github.com/powerline/fonts.git
+cd fonts; ./install.sh; cd ..; rm -rf fonts
 #link-file----------------------------------------------------------------------------------------------------------+
 #link https://git.io/JuBUw
