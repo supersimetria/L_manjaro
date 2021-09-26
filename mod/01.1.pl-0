@@ -476,6 +476,7 @@ python-pyqt5-webengine
 python-pysmi
 python-pysnmp
 python-pytsk3
+python-qdarkstyle
 python-qrcode
 python-shiboken2
 python-twisted
@@ -543,6 +544,7 @@ routersploit
 rpak
 rpcsniffer
 rpctools
+rssguard
 ruby
 ruby-msgpack
 runc
