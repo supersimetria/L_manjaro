@@ -709,6 +709,7 @@ xf86-video-intel
 xf86-video-nouveau
 xfce4-artwork
 xfce4-datetime-plugin
+xfce4-dev-tools
 xfce4-eyes-plugin
 xfce4-panel-gtk3
 xorg-server-xvfb
