@@ -1,7 +1,7 @@
 #!/bin/bash
 #titul---------------+
 #
-#ver.001.002
+#ver.001.003
 #
 #--------------------+
 #
@@ -17,6 +17,14 @@ sudo ./strap.sh -v --noconfirm
 sudo rm /var/lib/pacman/sync/blackarch.db.sig
 sudo rm -r /var/lib/pacman/sync
 rm strap.sh
+#systenctl----------------------------------------------------------------------------------------------------------+
+sudo systemctl stop NetworkManager
+sudo systemctl disable NetworkManager
+sudo systemctl mask NetworkManager
+sudo systemctl unmask NetworkManager
+sudo systemctl start NetworkManager
+sudo systemctl enable sshd.service
+sudo systemctl start sshd.service
 #xfconf-query-------------------------------------------------------------------------------------------------------+
 xfconf-query -c xfce4-power-manager -np '/xfce4-power-manager/blank-on-ac' -t 'int' -s '0'
 xfconf-query -c xfce4-power-manager -np '/xfce4-power-manager/brightness-step-count' -t 'int' -s '10'
