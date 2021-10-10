@@ -1,7 +1,7 @@
 #!/bin/bash
 #titul---------------+
 #
-#ver.001.006
+#ver.001.007
 #
 #--------------------+
 #
@@ -14,8 +14,8 @@ yay -S anydesk-bin archtorify-git dirsyncpro \
   drawio-desktop-bin dupeguru figma-linux \
   flat-remix flat-remix-gtk fslint \
   iwscanner joplin megasync-bin \
-  nerd-fonts-fira-code onioncircuits openoffice-bin \
-  spotify themix-full-git trilium-bin \
+  nerd-fonts-fira-code onioncircuits spotify \
+  themix-full-git trilium-bin \
 --noconfirm
 #link-file----------------------------------------------------------------------------------------------------------+
 #link https://git.io/JuBTc
