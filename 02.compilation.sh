@@ -19,6 +19,8 @@ cd /opt/ && sudo mkdir -pm 777 dpkg && cd dpkg; sudo mkdir -pm 777 librefox rout
   #wget https://github.com/intercepter-ng/mirror/blob/master/Intercepter-NG.v1.0.zip?raw=true -O Intercepter-NG.zip
   #unzip Intercepter-NG.zip; rm wpcap.dll; rm Packet.dll
   #sudo ln -s /usr/lib32/libpcap.so /usr/lib32/libpcap.so.0.8
+#adbwebkit----------------------------------------------------------------------------------------------------------+
+cd /opt/dpkg; git clone https://github.com/jxroot/adbwebkit.git
 #librefox-----------------------------------------------------------------------------------------------------------+
 killall -i -v -w firefox
 sudo mkdir /var/tmp/librefox_temporarily; cd /var/tmp/librefox_temporarily
