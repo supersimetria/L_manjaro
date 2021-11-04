@@ -23,24 +23,12 @@ sudo chown 9165:6941 -R /opt/github_project
   #wget https://github.com/intercepter-ng/mirror/blob/master/Intercepter-NG.v1.0.zip?raw=true -O Intercepter-NG.zip
   #unzip Intercepter-NG.zip; rm wpcap.dll; rm Packet.dll
   #sudo ln -s /usr/lib32/libpcap.so /usr/lib32/libpcap.so.0.8
-#librefox-----------------------------------------------------------------------------------------------------------+
-killall -i -v -w firefox
-sudo mkdir /var/tmp/librefox_temporarily; cd /var/tmp/librefox_temporarily
-sudo wget https://github.com/intika/Librefox/releases/download/Librefox-v2.1-v64.0.0/Librefox-2.1-Firefox-Linux-64.0.0.zip -N
-sudo unzip -n Librefox*
-sudo rm -r /usr/lib/firefox/defaults/ /usr/lib/firefox/distribution/
-sudo cp -r defaults/ distribution/ mozilla.cfg Readme.Installation.Instructions.txt /usr/lib/firefox/
-sudo rm -r /var/tmp/librefox_temporarily
 #osiig--------------------------------------------------------------------------------------------------------------+
   #cd /opt/dpkg/osiig
   #git clone https://github.com/th3unkn0n/osi.ig.git && cd osi.ig
   #python3 -m pip install -r requirements.txt
-#routerscaner-------------------------------------------------------------------------------------------------------+
-cd /opt/dpkg/routerscaner
-wget http://msk1.stascorp.com/routerscan/prerelease.7z -O routerscaner.7z
-7z x *.7z; rm *.7z
 #powerline-fonts----------------------------------------------------------------------------------------------------+
 git clone https://github.com/powerline/fonts.git
 cd fonts; ./install.sh; cd ..; rm -rf fonts
 #link-file----------------------------------------------------------------------------------------------------------+
-#link https://git.io/JuBUw
+#link https://git.io/JPFWA
