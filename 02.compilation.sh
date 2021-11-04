@@ -1,7 +1,7 @@
 #!/bin/bash
 #titul---------------+
 #
-#ver.001.005
+#ver.001.006
 #
 #--------------------+
 #
@@ -18,6 +18,6 @@ sudo rm -r /var/tmp/librefox_temporarily
 #routerscaner-------------------------------------------------------------------------------------------------------+
 cd /opt/dpkg/routerscaner
 wget http://msk1.stascorp.com/routerscan/prerelease.7z -O routerscaner.7z
-7z x *.7z; rm *.7z
+7z x *.7z; rm *.7z; cd
 #link-file----------------------------------------------------------------------------------------------------------+
 #link https://git.io/JuBUw
