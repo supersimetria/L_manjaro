@@ -1,7 +1,7 @@
 #!/bin/bash
 #titul---------------+
 #
-#ver.001.008
+#ver.001.009
 #
 #--------------------+
 #
@@ -12,8 +12,8 @@ sudo pacman -S $(curl https://raw.githubusercontent.com/supersimetria/L_manjaro/
 #AUR-packeges-------------------------------------------------------------------------------------------------------+
 yay -S anydesk-bin archtorify-git freefilesync-bin \
   drawio-desktop-bin dupeguru figma-linux \
-  flat-remix flat-remix-gtk fslint \
-  iwscanner joplin megasync-bin \
+  archivebox flat-remix flat-remix-gtk fslint \
+  iwscanner joplin proxmox-backup-client megasync-bin \
   nerd-fonts-fira-code onioncircuits spotify \
   themix-full-git trilium-bin quickhash-gui-bin \
 --noconfirm
