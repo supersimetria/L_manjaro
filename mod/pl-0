@@ -32,7 +32,6 @@ atom
 atstaketools
 audacious
 autoconf2.13
-autopsy
 b43-fwcutter
 backorifice
 bamf-framework
@@ -346,9 +345,11 @@ prowler
 pstoreview
 putty
 pwdump
+python-pytsk3
 python-safedexml
 python2-minidump
 python2-minikerberos
+python2-pytsk3
 qopenvpn
 qpdfview
 qt5pas
@@ -423,6 +424,7 @@ systemd-fsck-silent
 tabi
 terminator
 terminus-font
+testdisk
 threadweaver
 threatspec
 thumbcacheviewer
