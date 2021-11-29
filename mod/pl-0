@@ -940,8 +940,6 @@ winregfs
 winrelay
 wireless-ids
 wireless_tools
-wireshark-cli
-wireshark-qt
 wmctrl
 wordpot
 wpa_supplicant
