@@ -1,14 +1,14 @@
 #!/bin/bash
 #titul---------------+
 #
-#ver.001.014
+#ver.001.015
 #
 #--------------------+
 #
 #download-packeges--------------------------------------------------------------------------------------------------+
-#sudo pacman -Sw $(curl https://raw.githubusercontent.com/supersimetria/L_manjaro/main/mod/pl-0) --noconfirm
+sudo pacman -Sw $(curl https://raw.githubusercontent.com/supersimetria/L_manjaro/main/mod/pl-1) --noconfirm
 #install-packeges---------------------------------------------------------------------------------------------------+
-#sudo pacman -S $(curl https://raw.githubusercontent.com/supersimetria/L_manjaro/main/mod/pl-0) --noconfirm
+sudo pacman -S $(curl https://raw.githubusercontent.com/supersimetria/L_manjaro/main/mod/pl-1) --noconfirm
 #AUR-packeges-------------------------------------------------------------------------------------------------------+
 yay -S anydesk-bin \
   archtorify-git \
