@@ -1,7 +1,7 @@
 #!/bin/bash
 #titul---------------+
 #
-#ver.001.012
+#ver.001.013
 #
 #--------------------+
 #
@@ -23,6 +23,7 @@ yay -S anydesk-bin \
  quickhash-gui-bin \
  spotify \
  trilium-bin \
+ virtualbox-ext-oracle  \
 --noconfirm
 
 # oomox
