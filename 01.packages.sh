@@ -1,7 +1,7 @@
 #!/bin/bash
 #titul---------------+
 #
-#ver.001.015
+#ver.001.016
 #
 #--------------------+
 #
@@ -18,7 +18,6 @@ yay -S anydesk-bin \
   flat-remix \
   flat-remix-gtk \
   freefilesync-bin \
-  joplin-desktop \
   nerd-fonts-fira-code \
   quickhash-gui-bin \
   spotify \
