@@ -1,29 +1,29 @@
 #!/bin/bash
 #titul---------------+
 #
-#ver.001.013
+#ver.001.014
 #
 #--------------------+
 #
 #download-packeges--------------------------------------------------------------------------------------------------+
-sudo pacman -Sw $(curl https://raw.githubusercontent.com/supersimetria/L_manjaro/main/mod/pl-0) --noconfirm
+#sudo pacman -Sw $(curl https://raw.githubusercontent.com/supersimetria/L_manjaro/main/mod/pl-0) --noconfirm
 #install-packeges---------------------------------------------------------------------------------------------------+
-sudo pacman -S $(curl https://raw.githubusercontent.com/supersimetria/L_manjaro/main/mod/pl-0) --noconfirm
+#sudo pacman -S $(curl https://raw.githubusercontent.com/supersimetria/L_manjaro/main/mod/pl-0) --noconfirm
 #AUR-packeges-------------------------------------------------------------------------------------------------------+
 yay -S anydesk-bin \
- archtorify-git \
- czkawka-gui-bin \
- drawio-desktop-bin \
- figma-linux \
- flat-remix \
- flat-remix-gtk \
- freefilesync-bin \
- joplin-desktop \
- nerd-fonts-fira-code \
- quickhash-gui-bin \
- spotify \
- trilium-bin \
- virtualbox-ext-oracle  \
+  archtorify-git \
+  czkawka-gui-bin \
+  drawio-desktop-bin \
+  figma-linux \
+  flat-remix \
+  flat-remix-gtk \
+  freefilesync-bin \
+  joplin-desktop \
+  nerd-fonts-fira-code \
+  quickhash-gui-bin \
+  spotify \
+  trilium-bin \
+  virtualbox-ext-oracle \
 --noconfirm
 
 # oomox
