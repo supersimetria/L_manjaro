@@ -1,7 +1,7 @@
 #!/bin/bash
 #titul---------------+
 #
-#ver.001.007
+#ver.001.008
 #
 #--------------------+
 #
@@ -19,5 +19,17 @@ sudo rm -r /var/tmp/librefox_temporarily
 cd /opt/dpkg/routerscaner
 wget http://msk1.stascorp.com/routerscan/prerelease.7z -O routerscaner.7z
 7z x *.7z; rm *.7z; cd
+#*******************************************************************************************************************+
+#                                                                                                                   +
+#                                                      github                                                       +
+#                                                                                                                   +
+#graphite-theme-----------------------------------------------------------------------------------------------------*
+git clone https://github.com/vinceliuice/Graphite-gtk-theme.git
+cd Graphite-gtk-theme.git;sh /Graphite-gtk-theme/install.sh
+sudo rm -r Graphite-gtk-theme
+#graphite-cursors---------------------------------------------------------------------------------------------------*
+git clone https://github.com/vinceliuice/Graphite-cursors.git
+cd Graphite-cursors;sudo sh /Graphite-cursors/install.sh
+sudo rm -r Graphite-cursors
 #link-file----------------------------------------------------------------------------------------------------------+
 #link https://git.io/JuBUw
