@@ -1,12 +1,12 @@
 #!/bin/bash
 #titul---------------+
 #
-#ver.001.006
+#ver.001.007
 #
 #--------------------+
 #
 #folders------------------------------------------------------------------------------------------------------------+
-cd /opt/ && sudo mkdir -pm 777 dpkg && cd dpkg; sudo mkdir -pm 777 librefox routerscaner
+cd /opt/ && sudo mkdir -pm 777 dpkg && cd dpkg; sudo mkdir -pm 777 routerscaner
 #librefox-----------------------------------------------------------------------------------------------------------+
 killall -i -v -w firefox
 sudo mkdir /var/tmp/librefox_temporarily; cd /var/tmp/librefox_temporarily
