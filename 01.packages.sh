@@ -1,7 +1,7 @@
 #!/bin/bash
 #titul---------------+
 #
-#ver.001.016
+#ver.001.017
 #
 #--------------------+
 #
@@ -25,10 +25,11 @@ yay -S anydesk-bin \
   virtualbox-ext-oracle \
 --noconfirm
 
+# dupeguru
+# joplin-desktop
+# megasync
 # oomox
 # szyszka
-# megasync
-# dupeguru
 
 #link-file----------------------------------------------------------------------------------------------------------+
 #link https://git.io/JuBTc
