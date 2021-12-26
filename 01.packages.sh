@@ -1,7 +1,7 @@
 #!/bin/bash
 #titul---------------+
 #
-#ver.001.017
+#ver.001.018
 #
 #--------------------+
 #
@@ -23,6 +23,7 @@ yay -S anydesk-bin \
   spotify \
   trilium-bin \
   virtualbox-ext-oracle \
+  obsidian \
 --noconfirm
 
 # dupeguru
