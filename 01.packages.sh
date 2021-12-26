@@ -1,7 +1,7 @@
 #!/bin/bash
 #titul---------------+
 #
-#ver.001.018
+#ver.001.019
 #
 #--------------------+
 #
@@ -18,13 +18,13 @@ yay -S anydesk-bin \
   flat-remix \
   flat-remix-gtk \
   freefilesync-bin \
+  iwscanner \
   nerd-fonts-fira-code \
+  obsidian \
   quickhash-gui-bin \
   spotify \
   trilium-bin \
   virtualbox-ext-oracle \
-  obsidian \
-  iwscanner \
 --noconfirm
 
 # dupeguru
