@@ -24,6 +24,7 @@ yay -S anydesk-bin \
   trilium-bin \
   virtualbox-ext-oracle \
   obsidian \
+  iwscanner \
 --noconfirm
 
 # dupeguru
