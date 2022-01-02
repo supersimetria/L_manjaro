@@ -1,7 +1,7 @@
 #!/bin/bash
 #titul---------------+
 #
-#ver.001.001
+#ver.001.002
 #
 #--------------------+
 #
@@ -34,4 +34,4 @@ rm strap.sh
 printf "%b Upgrading packages...\n" "${STR_INFO}"
 sudo pacman -Syyuu --noconfirm
 #link-file----------------------------------------------------------------------------------------------------------+
-#link to git.io
+#link https://git.io/JSYQg
