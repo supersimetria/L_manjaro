@@ -1,7 +1,7 @@
 #!/bin/bash
 #titul---------------+
 #
-#ver.001.002
+#ver.001.003
 #
 #--------------------+
 #
@@ -26,6 +26,7 @@ yay -S anydesk-bin \
   flat-remix-gtk \
   freefilesync-bin \
   iwscanner \
+  megasync \
   nerd-fonts-fira-code \
   obsidian \
   quickhash-gui-bin \
@@ -36,7 +37,6 @@ yay -S anydesk-bin \
 
 # dupeguru
 # joplin-desktop
-# megasync
 # oomox
 # szyszka
 
