@@ -1,7 +1,7 @@
 #!/bin/bash
 #titul---------------+
 #
-#ver.001.006
+#ver.001.007
 #
 #--------------------+
 #
@@ -20,7 +20,7 @@ printf "# ----------------------------------------------------------------------
 printf "# Blackarch repository\n"
 printf "# ------------------------------------------------------------------------------\n"
 curl -O https://blackarch.org/strap.sh
-echo 84a2981475b49d7880bb8c5727ebea64f9f22a7c strap.sh | sha1sum -c
+echo 8bfe5a569ba7d3b055077a4e5ceada94119cccef strap.sh | sha1sum -c
 chmod +x strap.sh
 sudo sed -i "/nameserver/i nameserver 8.8.8.8" /etc/resolv.conf
 gpgconf --kill all
