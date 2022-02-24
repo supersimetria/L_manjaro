@@ -1,7 +1,7 @@
 #!/bin/bash
 #titul---------------+
 #
-#ver.001.004
+#ver.001.005
 #
 #--------------------+
 #
@@ -16,24 +16,26 @@ sudo pacman -S $(curl https://raw.githubusercontent.com/supersimetria/L_manjaro/
 printf "# ------------------------------------------------------------------------------\n"
 printf "# AUR packeges\n"
 printf "# ------------------------------------------------------------------------------\n"
-sudo sed -i '48s/.*/MAKEFLAGS="-j$(nproc)/' /etc/makepkg.conf
-yay -S spotify \
+# оптимизировать сборку aur
+# sudo sed -i '48s/.*/MAKEFLAGS="-j$(nproc)/' /etc/makepkg.conf
+curl -sS https://download.spotify.com/debian/pubkey_5E3C45D7B312C643.gpg | gpg --import -
+
+yay -S anydesk-bin \
+  figma-linux \
+  flat-remix \
+  flat-remix-gtk \
+  spotify \
 --noconfirm
 
-  #anydesk-bin \
   #archtorify-git \
   #czkawka-gui-bin \
   #drawio-desktop-bin \
-  #figma-linux \
-  #flat-remix \
-  #flat-remix-gtk \
   #freefilesync-bin \
   #iwscanner \
   #megasync \
   #nerd-fonts-fira-code \
   #obsidian \
   #quickhash-gui-bin \
-  #spotify \
   #trilium-bin \
   #virtualbox-ext-oracle \
 
