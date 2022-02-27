@@ -1,7 +1,7 @@
 #!/bin/bash
 #titul---------------+
 #
-#ver.001.007
+#ver.001.008
 #
 #--------------------+
 #
@@ -28,6 +28,7 @@ yay -S anydesk-bin \
   flat-remix-gtk \
   spotify \
   virtualbox-ext-oracle \
+  obsidian-appimage \
   --noconfirm
 
   #archtorify-git \
@@ -37,7 +38,6 @@ yay -S anydesk-bin \
   #iwscanner \
   #megasync \
   #nerd-fonts-fira-code \
-  #obsidian \
   #quickhash-gui-bin \
   #trilium-bin \
 
@@ -45,6 +45,17 @@ yay -S anydesk-bin \
 # joplin-desktop
 # oomox
 # szyszka
+
+printf "# ------------------------------------------------------------------------------\n"
+printf "# xfconf-query | theme\n"
+printf "# ------------------------------------------------------------------------------\n"
+xfconf-query --channel xsettings --property /Net/ThemeName --set "Flat-Remix-GTK-Red-Darkest-Solid"
+xfconf-query --channel xsettings --property /Net/IconThemeName --set "Flat-Remix-Red-Dark"
+xfconf-query --channel xsettings --property /Gtk/FontName --set "Source Code Pro Regular 10"
+xfconf-query --channel xsettings --property /Gtk/MonospaceFontName --set "Source Code Pro Regular 10"
+xfconf-query --channel xfwm4 --property /general/theme --set "Flat-Remix-Darkest-XFWM"
+xfconf-query --channel xfwm4 --property /general/title_font --set "Source Code Pro Regular 10"
+xfconf-query -c xfwm4 -p /general/show_dock_shadow -s false
 
 # link_file---------------------------------------------------------------------
 # https://git.io/JuBTc
