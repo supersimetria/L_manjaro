@@ -1,7 +1,7 @@
 #!/bin/bash
 #titul---------------+
 #
-#ver.001.007
+#ver.001.008
 #
 #--------------------+
 #
@@ -32,30 +32,26 @@ printf "# ----------------------------------------------------------------------
 printf "# Update system\n"
 printf "# ------------------------------------------------------------------------------\n"
 sudo pacman -Syyuu --noconfirm
-printf "# ------------------------------------------------------------------------------\n"
-printf "# systemctl\n"
-printf "# ------------------------------------------------------------------------------\n"
-sudo systemctl stop NetworkManager
-sudo systemctl disable NetworkManager
-sudo systemctl mask NetworkManager
-sudo systemctl unmask NetworkManager
-sudo systemctl start NetworkManager
-sudo systemctl enable sshd.service
-sudo systemctl start sshd.service
-printf "# ------------------------------------------------------------------------------\n"
-printf "# xfconf-query | power presets\n"
-printf "# ------------------------------------------------------------------------------\n"
-xfconf-query -c xfce4-power-manager -np '/xfce4-power-manager/blank-on-ac' -t 'int' -s '0'
-xfconf-query -c xfce4-power-manager -np '/xfce4-power-manager/brightness-step-count' -t 'int' -s '10'
-xfconf-query -c xfce4-power-manager -np '/xfce4-power-manager/dpms-enabled' -t 'bool' -s 'false'
-xfconf-query -c xfce4-power-manager -np '/xfce4-power-manager/dpms-on-ac-off' -t 'int' -s '0'
-xfconf-query -c xfce4-power-manager -np '/xfce4-power-manager/dpms-on-ac-sleep' -t 'int' -s '0'
-xfconf-query -c xfce4-power-manager -np '/xfce4-power-manager/general-notification' -t 'bool' -s 'false'
-xfconf-query -c xfce4-power-manager -np '/xfce4-power-manager/lock-screen-suspend-hibernate' -t 'bool' -s 'false'
-xfconf-query -c xfce4-power-manager -np '/xfce4-power-manager/logind-handle-lid-switch' -t 'bool' -s 'false'
-printf "# ------------------------------------------------------------------------------\n"
-printf "# System update\n"
-printf "# ------------------------------------------------------------------------------\n"
-sudo pacman -Syu --noconfirm
+#printf "# ------------------------------------------------------------------------------\n"
+#printf "# systemctl\n"
+#printf "# ------------------------------------------------------------------------------\n"
+#sudo systemctl stop NetworkManager
+#sudo systemctl disable NetworkManager
+#sudo systemctl mask NetworkManager
+#sudo systemctl unmask NetworkManager
+#sudo systemctl start NetworkManager
+#sudo systemctl enable sshd.service
+#sudo systemctl start sshd.service
+#printf "# ------------------------------------------------------------------------------\n"
+#printf "# xfconf-query | power presets\n"
+#printf "# ------------------------------------------------------------------------------\n"
+#xfconf-query -c xfce4-power-manager -np '/xfce4-power-manager/blank-on-ac' -t 'int' -s '0'
+#xfconf-query -c xfce4-power-manager -np '/xfce4-power-manager/brightness-step-count' -t 'int' -s '10'
+#xfconf-query -c xfce4-power-manager -np '/xfce4-power-manager/dpms-enabled' -t 'bool' -s 'false'
+#xfconf-query -c xfce4-power-manager -np '/xfce4-power-manager/dpms-on-ac-off' -t 'int' -s '0'
+#xfconf-query -c xfce4-power-manager -np '/xfce4-power-manager/dpms-on-ac-sleep' -t 'int' -s '0'
+#xfconf-query -c xfce4-power-manager -np '/xfce4-power-manager/general-notification' -t 'bool' -s 'false'
+#xfconf-query -c xfce4-power-manager -np '/xfce4-power-manager/lock-screen-suspend-hibernate' -t 'bool' -s 'false'
+#xfconf-query -c xfce4-power-manager -np '/xfce4-power-manager/logind-handle-lid-switch' -t 'bool' -s 'false'
 # link_file---------------------------------------------------------------------
 # https://git.io/JSOW7
