@@ -1,4 +1,5 @@
 atom
+btop
 kate
 keepassxc
 linux515-virtualbox-host-modules
@@ -9,5 +10,5 @@ virtualbox
 virtualbox
 virtualbox-guest-iso
 virtualbox-host-dkms
+vivaldi
 yay
-btop
