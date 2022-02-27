@@ -1,7 +1,7 @@
 #!/bin/bash
 #titul---------------+
 #
-#ver.001.006
+#ver.001.007
 #
 #--------------------+
 #
@@ -13,7 +13,7 @@ printf "# ----------------------------------------------------------------------
 printf "# Install packeges\n"
 printf "# ------------------------------------------------------------------------------\n"
 sudo pacman -S $(curl https://raw.githubusercontent.com/supersimetria/L_manjaro/main/mod/pl-2) --noconfirm
-sudo modprobe vboxdrv
+  sudo modprobe vboxdrv
 printf "# ------------------------------------------------------------------------------\n"
 printf "# AUR packeges\n"
 printf "# ------------------------------------------------------------------------------\n"
