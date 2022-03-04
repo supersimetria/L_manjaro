@@ -53,5 +53,6 @@ xfconf-query -c xfce4-power-manager -np '/xfce4-power-manager/dpms-on-ac-sleep' 
 xfconf-query -c xfce4-power-manager -np '/xfce4-power-manager/general-notification' -t 'bool' -s 'false'
 xfconf-query -c xfce4-power-manager -np '/xfce4-power-manager/lock-screen-suspend-hibernate' -t 'bool' -s 'false'
 xfconf-query -c xfce4-power-manager -np '/xfce4-power-manager/logind-handle-lid-switch' -t 'bool' -s 'false'
+
 # link_file---------------------------------------------------------------------
 # https://git.io/JSOW7
