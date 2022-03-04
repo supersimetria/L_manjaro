@@ -1,7 +1,7 @@
 #!/bin/bash
 #titul---------------+
 #
-#ver.001.010
+#ver.001.011
 #
 #--------------------+
 #
@@ -21,13 +21,14 @@ printf "# ----------------------------------------------------------------------
 curl -sS https://download.spotify.com/debian/pubkey_5E3C45D7B312C643.gpg | gpg --import -
 
 yay -S anydesk-bin \
+  archivebox \
   figma-linux \
   flat-remix \
   flat-remix-gtk \
   obsidian-appimage \
   spotify \
   virtualbox-ext-oracle \
-  --noconfirm
+--noconfirm
 
   #archtorify-git \
   #czkawka-gui-bin \
