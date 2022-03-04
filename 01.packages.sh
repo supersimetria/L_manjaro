@@ -1,7 +1,7 @@
 #!/bin/bash
 #titul---------------+
 #
-#ver.001.009
+#ver.001.010
 #
 #--------------------+
 #
@@ -17,8 +17,6 @@ sudo pacman -S $(curl https://raw.githubusercontent.com/supersimetria/L_manjaro/
 printf "# ------------------------------------------------------------------------------\n"
 printf "# AUR packeges\n"
 printf "# ------------------------------------------------------------------------------\n"
-# оптимизировать сборку aur
-# sudo sed -i '48s/.*/MAKEFLAGS="-j$(nproc)/' /etc/makepkg.conf
 
 curl -sS https://download.spotify.com/debian/pubkey_5E3C45D7B312C643.gpg | gpg --import -
 
