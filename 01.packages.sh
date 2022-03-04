@@ -1,7 +1,7 @@
 #!/bin/bash
 #titul---------------+
 #
-#ver.001.008
+#ver.001.009
 #
 #--------------------+
 #
@@ -26,9 +26,9 @@ yay -S anydesk-bin \
   figma-linux \
   flat-remix \
   flat-remix-gtk \
+  obsidian-appimage \
   spotify \
   virtualbox-ext-oracle \
-  obsidian-appimage \
   --noconfirm
 
   #archtorify-git \
