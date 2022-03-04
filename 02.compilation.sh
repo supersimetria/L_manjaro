@@ -1,7 +1,7 @@
 #!/bin/bash
 #titul---------------+
 #
-#ver.001.002
+#ver.001.003
 #
 #--------------------+
 #
@@ -36,5 +36,6 @@ wget http://msk1.stascorp.com/routerscan/prerelease.7z -O routerscaner.7z
 #git clone https://github.com/vinceliuice/Graphite-cursors.git
 #sh Graphite-cursors/install.sh
 #sudo rm -r Graphite-cursors
+
 # link_file---------------------------------------------------------------------
 # https://git.io/JuBUw
