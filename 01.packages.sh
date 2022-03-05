@@ -1,7 +1,7 @@
 #!/bin/bash
 #titul---------------+
 #
-#ver.001.011
+#ver.001.012
 #
 #--------------------+
 #
@@ -25,6 +25,7 @@ yay -S anydesk-bin \
   figma-linux \
   flat-remix \
   flat-remix-gtk \
+  megasync \
   obsidian-appimage \
   spotify \
   virtualbox-ext-oracle \
@@ -35,15 +36,14 @@ yay -S anydesk-bin \
   #drawio-desktop-bin \
   #freefilesync-bin \
   #iwscanner \
-  #megasync \
   #nerd-fonts-fira-code \
   #quickhash-gui-bin \
   #trilium-bin \
 
-# dupeguru
-# joplin-desktop
-# oomox
-# szyszka
+  #dupeguru
+  #joplin-desktop
+  #oomox
+  #szyszka
 
 printf "# ------------------------------------------------------------------------------\n"
 printf "# xfconf-query | theme\n"
