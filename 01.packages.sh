@@ -1,7 +1,7 @@
 #!/bin/bash
 #titul---------------+
 #
-#ver.001.013
+#ver.001.014
 #
 #--------------------+
 #
@@ -28,7 +28,9 @@ yay -S anydesk-bin \
   flat-remix-gtk \
   megasync-bin \
   obsidian-appimage \
+  openoffice-ru-bin \
   spotify \
+  ttf-wps-fonts \
   virtualbox-ext-oracle \
   --noconfirm
 
