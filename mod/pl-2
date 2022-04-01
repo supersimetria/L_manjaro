@@ -1,13 +1,17 @@
 atom
+baobab
+bat
 bitwarden
 btop
 ctags
 docker
 flameshot
+inkscape
 iputils
+jre-openjdk
 kate
 keepassxc
-libreoffice-still-ru
+libreoffice-fresh-ru
 linux515-virtualbox-host-modules
 make
 mc
@@ -15,6 +19,8 @@ neofetch
 notepadqq
 renpy-demos
 telegram-desktop
+tilix
+tor-browser-en
 transmission-gtk
 tree
 vaultwarden
