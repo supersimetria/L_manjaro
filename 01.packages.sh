@@ -1,7 +1,7 @@
 #!/bin/bash
 #titul---------------+
 #
-#ver.001.015
+#ver.001.016
 #
 #--------------------+
 #
@@ -34,6 +34,7 @@ yay -S albert \
   spotify \
   ttf-wps-fonts \
   virtualbox-ext-oracle \
+  woeusb-ng \
   --noconfirm
 
   #archtorify-git \
